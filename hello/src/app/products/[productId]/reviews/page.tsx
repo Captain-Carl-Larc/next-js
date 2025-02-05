@@ -1,10 +1,7 @@
-export default function ReviewDetails({params}:{
-    params: {
-        productId:string,
-        reviewId: string
-    }
+export default function allReviews({params}:{
+    params :{productId:string}
 }){
     return (
-        <h1>Review {params.reviewId} for product {params.productId}</h1>
+        <h1>This sows all the reviews for product {params.productId}</h1>
     )
 }
